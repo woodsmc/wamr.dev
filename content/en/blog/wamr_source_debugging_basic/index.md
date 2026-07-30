@@ -35,7 +35,7 @@ Luckily, WAMR has supported source debugging feature based on lldb, and now is r
 1. Building WAMR with interpreter debugging enabled
 
     ``` bash
-    git clone https://github.com/bytecodealliance/wasm-micro-runtime.git
+    git clone https://github.com/wasm-micro-runtime/wasm-micro-runtime.git
     cd wasm-micro-runtime
     export WAMR_REPO=`pwd`
     cd product-mini/platforms/linux
@@ -395,7 +395,7 @@ If you don't need the evaluation feature, then just ignore the warning and it wi
 
 - If your app is built with `libc-builtin`
 
-    In this mode, all the dynamic memory goes into WAMR's `app_heap`, the design of WAMR's linear memory will not be covered by this blog post, please refer to our [memory_tune](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/memory_tune.md) document for more details.
+    In this mode, all the dynamic memory goes into WAMR's `app_heap`, the design of WAMR's linear memory will not be covered by this blog post, please refer to our [memory_tune](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/memory_tune.md) document for more details.
 
     The problem is `app_heap` is not enough, specify a larger value can solve this
 
@@ -431,7 +431,7 @@ If you don't need the evaluation feature, then just ignore the warning and it wi
 
     Debugging AoT/JIT module is totally a different solution which is not covered by this blog.
 
-    Currently WAMR has a highly experimental support for AOT/JIT debug, please refer to the [document](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/source_debugging.md#debugging-with-aot) for more details.
+    Currently WAMR has a highly experimental support for AOT/JIT debug, please refer to the [document](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/source_debugging.md#debugging-with-aot) for more details.
 
 - **Does this work with `multi-thread wasm application`?**
 

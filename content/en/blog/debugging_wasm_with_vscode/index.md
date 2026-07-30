@@ -20,7 +20,7 @@ VSCode's flexible extension system make it very easy to integrate any debuggers 
 
 1. Build the extension from source
 
-    Please follow this [document](https://github.com/bytecodealliance/wasm-micro-runtime/tree/main/test-tools/wamr-ide) to build the extension package.
+    Please follow this [document](https://github.com/wasm-micro-runtime/wasm-micro-runtime/tree/main/test-tools/wamr-ide) to build the extension package.
 
     > We are planning to automatically publish this extension by GitHub action, once finished, this step is not necessary.
 

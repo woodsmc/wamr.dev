@@ -119,4 +119,4 @@ $ ./FlameGraph/flamegraph.pl out.folded.translated > perf.svg
 ![example flamegraph](./perf.svg)
 
 
-**For more details, please refer to [doc](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/perf_tune.md#7-use-linux-perf)**
+**For more details, please refer to [doc](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/perf_tune.md#7-use-linux-perf)**

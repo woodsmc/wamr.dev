@@ -154,11 +154,11 @@ The development of WASI threads in WAMR was a team effort involving various folk
 
 
 [wasi-threads-proposal]: https://github.com/WebAssembly/wasi-threads/
-[wamr-pthread-library]: https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/pthread_library.md
-[wamr-1.2.0]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.2.0
-[wamr-1.2.2]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.2.2
-[wamr-01-18-2022]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
-[wamr-thread-mgr]: https://github.com/bytecodealliance/wasm-micro-runtime/tree/main/core/iwasm/libraries/thread-mgr
+[wamr-pthread-library]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/pthread_library.md
+[wamr-1.2.0]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-1.2.0
+[wamr-1.2.2]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-1.2.2
+[wamr-01-18-2022]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
+[wamr-thread-mgr]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/tree/main/core/iwasm/libraries/thread-mgr
 [wasi-libc]: https://github.com/WebAssembly/wasi-libc
 [wasi-sdk-20]: https://github.com/WebAssembly/wasi-sdk/releases/tag/wasi-sdk-20
 [threads-and-atomics]: https://github.com/WebAssembly/threads
