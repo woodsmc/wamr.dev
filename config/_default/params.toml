@@ -35,7 +35,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/bytecodealliance/wamr.dev"
+schemaGitHub = "https://github.com/wasm-micro-runtime/wamr.dev"
 schemaSection = "blog"
 
 ## Sitelinks Search Box

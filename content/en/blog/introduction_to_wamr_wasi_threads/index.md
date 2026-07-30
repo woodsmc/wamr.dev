@@ -165,7 +165,7 @@ The development of WASI threads in WAMR was a team effort involving various folk
 [hello_world]: https://github.com/loganek/wasi-threads-examples/blob/main/hello_world/hello_world.c
 [wasi-threads-announcement]: https://bytecodealliance.org/articles/wasi-threads
 [sorting]: https://github.com/loganek/wasi-threads-examples/tree/main/merge_sort
-[compression]: https://github.com/bytecodealliance/wasm-parallel-gzip
+[compression]: https://github.com/wasm-micro-runtime/wasm-parallel-gzip
 [rust-wasi-pr]: https://github.com/rust-lang/rust/pull/112922
 [proc-exit-issue]: https://github.com/WebAssembly/wasi-threads/issues/7
 [wasi-threads-issues]: https://github.com/WebAssembly/wasi-threads/issues
