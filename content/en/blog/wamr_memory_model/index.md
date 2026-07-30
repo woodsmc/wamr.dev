@@ -44,7 +44,7 @@ WAMR supports a few modes for managing the memory:
     wasm_runtime_full_init(&init_args);
     ```
 - **Alloc_With_System_Allocator**: Runtime will use the system default malloc/free for all the memory allocation.
-- **Alloc_With_Allocator**: The host can set a specific malloc/free implementation to runtime during initialization. refer to stuct [`RuntimeInitArgs`](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/d75cb3224f7c8a6565937a6389936a1a2160fc59/core/iwasm/include/wasm_export.h#L143) and [`MemAllocOption`](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/d75cb3224f7c8a6565937a6389936a1a2160fc59/core/iwasm/include/wasm_export.h#L111)
+- **Alloc_With_Allocator**: The host can set a specific malloc/free implementation to runtime during initialization. Refer to struct [`RuntimeInitArgs`](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/d75cb3224f7c8a6565937a6389936a1a2160fc59/core/iwasm/include/wasm_export.h#L143) and [`MemAllocOption`](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/d75cb3224f7c8a6565937a6389936a1a2160fc59/core/iwasm/include/wasm_export.h#L111)
 
 # Runtime memory
 The WAMR runtime  memory:
