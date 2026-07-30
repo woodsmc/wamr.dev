@@ -154,18 +154,18 @@ The development of WASI threads in WAMR was a team effort involving various folk
 
 
 [wasi-threads-proposal]: https://github.com/WebAssembly/wasi-threads/
-[wamr-pthread-library]: https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/pthread_library.md
-[wamr-1.2.0]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.2.0
-[wamr-1.2.2]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-1.2.2
-[wamr-01-18-2022]: https://github.com/bytecodealliance/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
-[wamr-thread-mgr]: https://github.com/bytecodealliance/wasm-micro-runtime/tree/main/core/iwasm/libraries/thread-mgr
+[wamr-pthread-library]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/pthread_library.md
+[wamr-1.2.0]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-1.2.0
+[wamr-1.2.2]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-1.2.2
+[wamr-01-18-2022]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/releases/tag/WAMR-01-18-2022
+[wamr-thread-mgr]: https://github.com/wasm-micro-runtime/wasm-micro-runtime/tree/main/core/iwasm/libraries/thread-mgr
 [wasi-libc]: https://github.com/WebAssembly/wasi-libc
 [wasi-sdk-20]: https://github.com/WebAssembly/wasi-sdk/releases/tag/wasi-sdk-20
 [threads-and-atomics]: https://github.com/WebAssembly/threads
 [hello_world]: https://github.com/loganek/wasi-threads-examples/blob/main/hello_world/hello_world.c
 [wasi-threads-announcement]: https://bytecodealliance.org/articles/wasi-threads
 [sorting]: https://github.com/loganek/wasi-threads-examples/tree/main/merge_sort
-[compression]: https://github.com/bytecodealliance/wasm-parallel-gzip
+[compression]: https://github.com/wasm-micro-runtime/wasm-parallel-gzip
 [rust-wasi-pr]: https://github.com/rust-lang/rust/pull/112922
 [proc-exit-issue]: https://github.com/WebAssembly/wasi-threads/issues/7
 [wasi-threads-issues]: https://github.com/WebAssembly/wasi-threads/issues

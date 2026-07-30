@@ -86,7 +86,7 @@ Alibaba's Microservice Engine (MSE) has adopted WAMR as a Wasm runtime to execut
 
 WAMR has also been integrated into Runwasi as one of the Wasm runtimes to execute Wasm in containerd. This integration allows for seamless execution of Wasm modules within containerized environments, providing a versatile and efficient solution for running Wasm applications.
 
-For more information on industrial adoptions and other use cases, please refer to [this link](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/ADOPTERS.md).
+For more information on industrial adoptions and other use cases, please refer to [this link](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/ADOPTERS.md).
 
 These examples highlight the growing trust and reliance on WAMR in various industrial applications, demonstrating its capability to deliver significant performance enhancements and operational efficiencies.
 

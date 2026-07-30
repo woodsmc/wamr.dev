@@ -28,9 +28,6 @@
 
 <header class="navbar navbar-expand-lg navbar-light doks-navbar">
   <div>
-    <a href="https://bytecodealliance.org/" class="brand">
-      <img src="{{ .Site.BaseURL }}/bytecode-alliance-logo.svg" alt="Bytecode Alliance logo" width="164">
-    </a>
   </div>
 
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
@@ -88,14 +85,14 @@
                   {{ range .Children -}}
                   {{- $active = eq .Name $current.Title -}}
                     <li>
-                      <a class="dropdown-item{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a>
+                      <a class="dropdown-item{{ if $active }} active{{ end }}" href="{{ .URL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a>
                     </li>
                   {{ end -}}
                 </ul>
               </li>
             {{ else }}
               <li class="nav-item">
-                <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
               </li>
             {{ end }}
           {{ end -}}

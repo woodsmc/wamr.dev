@@ -42,7 +42,7 @@ wasm_runtime_call_wasm(exec_env, func, 1, argv) ;
 
 ```
 
-During executing Wasm functions, the `exec_env` is mostly the first parameter in each frame of the native stack. The runtime requires the native APIs for Wasm to import must have the first parameter as `exec_env`. The detailed guidance and samples can be referred fom [Export native API to WASM application](https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/doc/export_native_api.md).
+During executing Wasm functions, the `exec_env` is mostly the first parameter in each frame of the native stack. The runtime requires the native APIs for Wasm to import must have the first parameter as `exec_env`. The detailed guidance and samples can be referred fom [Export native API to WASM application](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/export_native_api.md).
 
 
 In the interpreter mode, every function call will add a new call frame in the stack buffer. All the Wasm LOCALs and opocde stack of a function will be located inside the call frame.
