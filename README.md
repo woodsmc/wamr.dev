@@ -2,9 +2,9 @@
   wamr.dev
 </h1>
 
-![Linux](https://github.com/bytecodealliance/wamr.dev/workflows/github%20pages/badge.svg?branch=main)
+![Linux](https://github.com/wasm-micro-runtime/wamr.dev/workflows/github%20pages/badge.svg?branch=main)
 
-https://bytecodealliance.github.io/wamr.dev
+https://wasm-micro-runtime.github.io/wamr.dev
 
 ## Folder structure
 
