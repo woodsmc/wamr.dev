@@ -116,7 +116,7 @@ $ python trans_wasm_func_name.py --wabt_home <wabt installation> --folded out.fo
 #render a flamegraph
 $ ./FlameGraph/flamegraph.pl out.folded.translated > perf.svg
 ```
-![example flamegraph](./perf.svg)
+![example flamegraph](perf.svg)
 
 
 **For more details, please refer to [doc](https://github.com/wasm-micro-runtime/wasm-micro-runtime/blob/main/doc/perf_tune.md#7-use-linux-perf)**
